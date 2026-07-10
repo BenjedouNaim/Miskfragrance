@@ -12,6 +12,7 @@ import {
   MapPin,
   Clock,
 } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react";
 
 const Facebook = ({ size = 18, ...props }) => (
   <svg
@@ -1120,6 +1121,7 @@ function App() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
